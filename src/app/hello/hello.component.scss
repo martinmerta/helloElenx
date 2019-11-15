@@ -1,0 +1,16 @@
+.hello,
+.world {
+  font-size: 5rem;
+}
+.hello {
+  color: pink;
+}
+.world {
+  color: darkgreen;
+}
+@media (max-width: 512px) and (max-height: 300px) {
+  .hello,
+  .world {
+    font-size: 3rem;
+  }
+}
